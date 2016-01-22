@@ -88,8 +88,8 @@ CAPTION "关于本软件"
 FONT 10, "System", 0, 0, 0x0
 BEGIN
     LTEXT           "二次开发--黄伟健",IDC_STATIC,7,7,61,8
-    LTEXT           "博客地址：http://www.cnblogs.com/HuangWj/",IDC_STATIC,15,29,158,16
-    LTEXT           "源码地址：",IDC_STATIC,17,49,154,8
+    LTEXT           "博客地址：http://www.cnblogs.com/HuangWj/",IDC_STATIC,17,21,141,21
+    LTEXT           "源码下载：https://github.com/Fahy15/NotePad_MFC.git",IDC_STATIC,17,49,154,26
 END
 
 
