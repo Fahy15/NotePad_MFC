@@ -1,0 +1,32 @@
+﻿生成启动时间为 2016/1/22 12:49:56。
+     1>项目“F:\CandC++\NotePad\NotePad.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Debug\NotePad.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt DataOperate.cpp NotePadDlg.cpp
+         NotePadDlg.cpp
+     1>f:\candc++\notepad\notepaddlg.cpp(391): warning C4244: “初始化”: 从“ULONGLONG”转换到“unsigned int”，可能丢失数据
+     1>f:\candc++\notepad\notepaddlg.cpp(392): warning C4244: “参数”: 从“ULONGLONG”转换到“size_t”，可能丢失数据
+     1>f:\candc++\notepad\notepaddlg.cpp(393): warning C4244: “参数”: 从“ULONGLONG”转换到“UINT”，可能丢失数据
+     1>f:\candc++\notepad\notepaddlg.cpp(447): warning C4010: 单行注释包含行继续符
+     1>f:\candc++\notepad\dataoperate.cpp(178): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+         f:\candc++\notepad\dataoperate.cpp(160): note: 编译类 模板 成员函数“char *DataOperate<CString>::Devide(void)”时
+         f:\candc++\notepad\notepaddlg.cpp(527): note: 参见对正在编译的函数 模板 实例化“char *DataOperate<CString>::Devide(void)”的引用
+         f:\candc++\notepad\notepaddlg.cpp(511): note: 参见对正在编译的类 模板 实例化“DataOperate<CString>”的引用
+         DataOperate.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0804" /nologo /fo".\Debug\NotePad.res" NotePad.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\NotePad.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:".\Debug\NotePad.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\NotePad.lib" /MACHINE:X86 /SAFESEH .\Debug\NotePad.res
+         .\Debug\About.obj
+         .\Debug\DataOperate.obj
+         .\Debug\NotePad.obj
+         .\Debug\NotePadDlg.obj
+         .\Debug\StdAfx.obj
+     1>About.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         NotePad.vcxproj -> F:\CandC++\NotePad\.\Debug\NotePad.exe
+     1>已完成生成项目“F:\CandC++\NotePad\NotePad.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:10.01
